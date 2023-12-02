@@ -1,0 +1,213 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    scroll-behavior: smooth;
+}
+
+header{
+    position:sticky;
+    top: 0;
+    z-index: 100;
+    background-color: blue;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 10px;
+}
+
+header nav h1{
+    width: 30vw;
+    color: white;
+}
+
+header nav div{
+    display: flex;
+    justify-content: space-evenly;
+    width: 50vw;
+}
+
+header nav div a{
+    color: white;
+}
+
+.Home{
+    display: flex;
+    flex-direction: column;
+    background-color: #F0EDED;
+}
+
+#Home-1{
+    display: flex;
+    padding-left: 2vw;
+    padding-right: 2vw;
+}
+
+#Home-2{
+    display: flex;
+    justify-content: center;
+}
+
+.Home-2-box{
+    width: 20vw;
+    height: 5vh;
+    background-color: blue;
+    margin: 4px;
+    text-align: center;
+}
+
+.Welcome{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#About{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#About .top{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#About .content {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 90vw;
+}
+
+#About .content .left {
+    display: flex;
+    flex-direction: column;
+    width: 48%;
+}
+
+#About .content .right {
+    display: flex;
+    flex-direction: column;
+    width: 48%;
+}
+
+#Services{
+    background-color: #F0EDED;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#Services .services-heading{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#Services .all-service{
+    display: flex;
+    flex-direction: column;
+}
+
+#Services .all-service .service{
+    display: flex;
+}
+
+#Services .all-service .service .service-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 5px;
+    width: 30vw;
+    height: 35vh;
+    background-color: white;
+    margin: 7px;
+}
+
+#Portfolio{
+    display: flex;
+    flex-direction: column;
+    width: 95vw;
+    align-items: center;
+}
+
+#Portfolio .portfolio-heading{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#Portfolio .all-portfolio{
+    display: flex;
+    flex-direction: column;
+    margin: 5px;
+    width: 90%;
+}
+
+#Portfolio .all-portfolio .portfolio{
+    display: flex;
+    margin: 3px;
+}
+
+#Portfolio .all-portfolio .portfolio .portfolio-box{
+    margin: 5px;
+}
+
+#Portfolio img {
+    max-width: 100%;
+    height: auto;
+}
+
+#Contact{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    background-color: #F0EDED
+}
+
+#Contact .Contact-heading{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#Contact .content{
+    display: flex;
+    justify-content: center;
+    width: 95vw;
+}
+
+#Contact .content .info-us div{
+    background-color: blue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 25vw;
+}
+
+#Contact .content .info-user form{
+    display: flex;
+    flex-direction: column;
+    margin: 5px;
+    width: 60vw;
+}
+
+#Contact .content .info-user form .upper{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#Contact .content .info-user form .lower{
+    display: flex;
+    flex-direction: column;
+}
+
